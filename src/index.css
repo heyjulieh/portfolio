@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim|Codystar:300,400|Dosis:200,300,400,500,600,700,800|Marvel:400,400i,700,700i|News+Cycle:400,700|Pacifico|Permanent+Marker|Quicksand:300,400,500,700|Raleway+Dots|Sarina');
+
+body {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+#gradient
+{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 668px) {
+  .pull-right{
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #title-blurb{
+    display: none;
+  }
+  #proj {
+    height: 100%;
+  }
+  #proj-div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #plusimg, #extraimg, #aboutimg {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #plusimg {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 851px) {
+  #extraimg {
+    display:none;
+  }
+}
+
+/*Jumbotron*/
+.jumbotron {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 0;
+}
+.title {
+  display: inline-block;
+  margin-top: 100px;
+  background-color: rgba(255,255,255,0.2);
+  padding: 30px 80px 30px 35px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+}
+h1.title-header, a.title-header {
+  width: 100%;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: #3B5957;
+  text-shadow: 0px 2px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+a.title-header:hover, h1.title-header:hover{
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+p.title-text {
+  text-transform: lowercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: #3B5957;
+  text-shadow: 0px 2px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+  padding-left: 5px;
+}
+a:hover {
+  transition: all 0.5s ease;
+}
+
+div.logo {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: middle;
+  margin: 20px;
+  border-radius: 8px;
+  color: #3B5957;
+  text-shadow: 0px 2px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+  background-color: rgba(255,255,255,0.2);
+}
+p.logo-text {
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+/*Nav*/
+nav {
+  margin-top: 40px;
+}
+li.dropdown:hover, li.dropdown:active {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color:rgba(255,255,255,0.2);
+  color: #3B5957;
+}
+a.dropdown-toggle:hover, a.dropdown-toggle:active, {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color:rgba(255,255,255,0.2);
+  color: #3B5957;
+  font-family: 'Quicksand', sans-serif;
+}
+a.dropdown-toggle, a.dropdown-toggle:visited, li.dropdown:visited {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  font-family: 'Quicksand', sans-serif;
+  border: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+a.dropdown-toggle {
+  font-family: 'Quicksand', sans-serif;
+  color: #3B5957;
+  text-transform: uppercase;
+}
+ul.nav {
+  display: inline-block;
+  margin: auto;
+}
+.row{
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+}
+.landing {
+  padding-bottom: 50px;
+  background: url("http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Winter-PNG/Snowy_Mountain_Transparent_PNG_Clip_Art_Image.png?m=1458471253") no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+div.title-blurb {
+  display: inline-block;
+  background-color: rgba(255,255,255,0.2);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  height: 150px;
+  width: 600px;
+  vertical-align: middle;
+  padding: 45px 10px 40px 60px;
+  margin-top: -100px;
+  text-transform: uppercase;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+}
+p.title-blurb {
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #3B5957;
+  text-shadow: 0px 2px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+div.nb {
+  padding-right: 0;
+}
+
+/*Landing Content*/
+div.landing {
+  margin-top: 120px;
+  width: 100%;
+}
+div.proj {
+  padding: 2%;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  clear: both;
+  width: 45%;
+}
+
+img.proj {
+  object-fit: cover;
+  width: 100%;
+  height: 305px;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .5);
+}
+
+img.proj:hover {
+  transition: all 0.5s ease;
+}
+
+div.proj-title {
+  display: inline-block;
+  clear: both;
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px;
+  width: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .5);
+}
+span.see-proj {
+  float: right;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 8px;
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+  padding: 5px;
+}
+p.proj-title {
+  margin-bottom: 0;
+  padding-right: 10px;
+  display: inline-block;
+}
+a.proj-title{
+  display: inline-block;
+  color: #3B5957;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+a.proj-title:hover {
+  color: white;
+  text-decoration: none;
+}
+.row {
+  margin-bottom: 30px;
+}
+
+/*About Me*/
+img.myimg {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    margin-bottom: 20px;
+}
+img.aboutimg {
+  margin-bottom: 20px;
+}
+.aboutcontent {
+  width: 70%;
+}
+div.aboutme {
+  margin-top: 115px;
+  background: url('http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Winter-PNG/Winter_Mountain_PNG_Clipart_Image.png?m=1442348965') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+div.myimg {
+  display: inline-block;
+  margin-top: -15%;
+  padding: 15px 15px 40px 15px;
+}
+div.aboutme-blurb {
+  float: right;
+  text-align: left;
+  display: inline-block;
+  background-color: rgba(225,225,225,0.9);
+  margin: auto;
+  padding: 20px;
+  border-radius: 7px;
+}
+p.aboutme-blurb {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 14px;;
+  color: black;
+  font-weight: 700;
+  padding-left: 20px;
+}
+h3.aboutme-blurb {
+  font-family: 'Raleway Dots', sans-serif;
+  font-weight: 800;
+  color: #3B5957;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+div.about {
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, .3);
+}
+h1.aboutme-title {
+  display: inline-block;
+  font-family: 'Raleway Dots', sans-serif;
+  color: lightgrey;
+  font-weight: 800;
+  padding-bottom: 30px;
+  padding-right: 60px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  border-bottom: 2px solid lightgrey;
+  text-shadow: 0px 2px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+p.linkto-resume {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 20px;
+}
+a.linkto-resume {
+  color: #3B5957;
+  font-weight: 500;
+}
+a.linkto-resume:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+/*Modal*/
+h4.modal-title {
+  font-size: 24px;
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+h2.modal-body {
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0;
+}
+p.modal-body {
+  font-weight: 300;
+  text-align: justify;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+/*Footer*/
+div.footer {
+  background: url('https://i2.wp.com/www.surviveuk.com/wp-content/uploads/2017/04/mountains-silhouette-clip-art-green-treeline-over-1.png?ssl=1') no-repeat;
+  background-position: center;
+  background-size: contain;
+}
